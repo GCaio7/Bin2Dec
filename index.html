@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bin2Dec</title>
+  </head>
+  <body>
+    <div>
+      <h1>Binary 2 Decimal Converter</h1>
+      <label class="main">Binary Input</label>
+      <input
+        class="main"
+        id="binNumberInput" 
+        placeholder="010101" 
+        required minlength="1" maxlength="8">
+      <button class="main" id="btnConvert" onclick="convert()">Convert</button>
+      <script type="text/javascript" src="./index.js"></script>
+      <label class="main" id="result"></label>
+    </div>
+  </body>
+</html>

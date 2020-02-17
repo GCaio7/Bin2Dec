@@ -1,0 +1,54 @@
+body{
+  text-align: -webkit-center;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  background-color: #282a36;
+}
+
+.main {
+  display: grid;
+  margin-bottom: 10px;
+}
+
+div{
+  margin: 15%;
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+@media (max-width: 590px){
+  div{
+    margin: auto;
+  }
+}
+
+#btnConvert:hover{
+  background-color: #dd1818;
+}
+
+#result{
+  display: none;
+  font-size: 50px;
+}
+
+input, button:focus {
+  outline: none;
+}
+
+input{
+  font-size: 20px;
+}
+
+#btnConvert {
+  background-color: #ff5555;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  height: 25px;
+}
+
