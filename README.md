@@ -1,2 +1,2 @@
 # Bin2Dec
- Binary to Decimal converter
+ Binary to Decimal converter.
